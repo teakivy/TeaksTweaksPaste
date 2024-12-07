@@ -19,7 +19,7 @@ services:
   frontend:
     image: ghcr.io/loudbooks/pastebook-frontend:latest
     ports:
-      - '8000:8000'
+      - '3000:3000'
     environment:
       - TITLE=Teak's Tweaks Paste
       - DESCRIPTION=Teak's Tweaks Paste
